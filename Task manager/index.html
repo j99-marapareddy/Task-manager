@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly & Monthly Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <h1>Task Tracker</h1>
+
+    <!-- INPUT SECTION -->
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter your task">
+
+      <select id="taskType">
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+      </select>
+
+      <button id="addBtn">Add</button>
+    </div>
+
+    <!-- MONTHLY STATS -->
+    <div class="stats">
+      <h3 id="monthlyStats">This Month: 0 tasks completed</h3>
+    </div>
+
+    <!-- TASK LIST -->
+    <ul id="taskList"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
